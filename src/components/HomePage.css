@@ -1,0 +1,89 @@
+/* Overall page styling */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+/* Header styling */
+.homepage-header h1 {
+    font-size: 3rem;
+    color: #007bff; /* Primary color */
+    margin-bottom: 10px;
+}
+
+.homepage-header p {
+    font-size: 1.5rem;
+    color: #6c757d; /* Muted text color */
+    margin-bottom: 30px;
+}
+
+/* Card container */
+.card-container {
+    display: flex;
+    gap: 30px;
+}
+
+/* Individual card styling */
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    max-width: 300px;
+    border: 1px solid #ebebeb;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading inside card */
+.card h2 {
+    font-size: 1.8rem;
+    color: #343a40; /* Darker color for contrast */
+    margin-bottom: 15px;
+}
+
+/* Paragraph inside card */
+.card p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Register button styling */
+.register-btn {
+    background-color: #28a745; /* Success green */
+    color: white;
+}
+
+.register-btn:hover {
+    background-color: #218838;
+}
+
+/* Login button styling */
+.login-btn {
+    background-color: #007bff; /* Primary blue */
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
